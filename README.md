@@ -23,3 +23,6 @@ Compared to milestone 1 and 2, our database schema has updated the ISA to repres
 
 ## Milestone 4
 [Milestone 4 PDF](./assets/CPSC304_Milestone4_Group14.pdf)
+
+## Video Demo
+https://youtu.be/epRFFsFKn5M
