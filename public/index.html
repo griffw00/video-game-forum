@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- This meta tag ensures that the website renders correctly across different device sizes, enhancing mobile responsiveness. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <title>Database Application</title>
+</head>
+
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <p>Video Game Database</p>
+            </div>
+            <div class="navbar-right">
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="game-info.html">Game Info</a></li>
+                    <li><a href="review-games.html">Game Reviews</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="app-container">
+        <h1>
+            Welcome to our Video Game Review Forum
+        </h1>
+    
+        <h2>Get started by viewing our database!</h2>
+    
+        <!-- area for select element for dropdown menu with table names -->
+        <label for="table_select">Choose a table</label>
+        <select name="tables" id="table_select"></select>
+    
+        <!-- area for checkboxes to display attribute selection for projection -->
+        <div id="attribute_select"></div>
+    
+        <!-- area to display filtering options -->
+        <div>Set filters below:</div>
+        <div id="apply_filter"></div>
+    
+        <!-- button to apply table, projections, filters on table -->
+        <button onclick="fetchAndDisplayTable()">Apply</button>
+        <!-- area for fetched table to be displayed -->
+        <table id="gametable" border="1">
+            <thead>
+                <tr id="gametableHeaders">
+                    <!--Table head, need to be adjusted accordingly to align with your own.-->
+                </tr>
+            </thead>
+            <tbody id="gametableBody">
+            </tbody>
+        </table>
+     
+        <!-- ===================================================================================== -->
+        <!-- External JavaScript file that contains the functionality/logic for the operations above. -->
+        <script src="scripts.js"></script>
+    </div>
+</body>
+</html>
