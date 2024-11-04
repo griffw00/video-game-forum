@@ -12,17 +12,5 @@ Compared to milestone 1 and 2, our database schema has updated the ISA to repres
 
 ![Entity Relationship Diagram](./assets/CPSC304_ERD_games_database.jpg)
 
-## Milestone 1
-[Milestone 1 PDF](./assets/CPSC304%20Milestone%201%20Group%2014.pdf)
-
-## Milestone 2
-[Milestone 2 PDF](./assets/CPSC304_Milestone2_Group14.pdf)
-
-## Milestone 3
-[Milestone 3 PDF](./assets/CPSC304_Milestone3_Group14.pdf)
-
-## Milestone 4
-[Milestone 4 PDF](./assets/CPSC304_Milestone4_Group14.pdf)
-
 ## Video Demo
 https://youtu.be/epRFFsFKn5M
